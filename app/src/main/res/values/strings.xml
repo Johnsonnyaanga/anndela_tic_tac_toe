@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
+    <string name="computer_mode">Computer Mode</string>
+    <string name="two_players">Two Players</string>
 </resources>
