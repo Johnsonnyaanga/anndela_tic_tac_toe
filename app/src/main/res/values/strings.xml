@@ -2,4 +2,5 @@
     <string name="app_name">Tic Tac Toe</string>
     <string name="computer_mode">Computer Mode</string>
     <string name="two_players">Two Players</string>
+    <string name="welcome_to_the_game">Welcome To The Game</string>
 </resources>
