@@ -3,4 +3,9 @@
     <string name="computer_mode">Computer Mode</string>
     <string name="two_players">Two Players</string>
     <string name="welcome_to_the_game">Welcome To The Game</string>
+    <string name="click_play_with_computer">Click to play with computer</string>
+    <string name="play_3x3_board">Play 3x3 Board</string>
+    <string name="play_5x5_board">Play 5x5 Board</string>
+    <string name="play_4x4_board">Play 4x4 Board</string>
+    <string name="click_begin">Click a button to start.</string>
 </resources>

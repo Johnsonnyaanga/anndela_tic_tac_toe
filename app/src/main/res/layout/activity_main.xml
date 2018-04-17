@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FEFBFC"
+    android:layout_marginTop="15dp"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,14 +14,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="61dp"
+        android:fontFamily="sans-serif"
         android:text="@string/welcome_to_the_game"
         android:textAlignment="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="25sp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/computer"
@@ -28,7 +30,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="179dp"
-        android:background="@drawable/layershape"
+        android:background="@drawable/backgroundmain"
         android:text="@string/computer_mode" />
 
     <Button
@@ -38,7 +40,17 @@
         android:layout_below="@+id/computer"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:background="@drawable/layershape"
+        android:background="@drawable/backgroundmain"
         android:text="@string/two_players" />
+
+    <Button
+        android:id="@+id/advance"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="111dp"
+        android:background="@drawable/layershape"
+        android:text="Play advanced Board" />
 </RelativeLayout>
 

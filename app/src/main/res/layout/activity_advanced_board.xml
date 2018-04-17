@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0"
+        android:background="@drawable/topbackground"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:paddingRight="16dp"
+        android:text="Play with the Computer "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        android:paddingEnd="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="@string/click_play_with_computer"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:textStyle="italic|bold" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/layershape"
+        android:fontFamily="casual"
+        android:onClick="four_board_computer"
+        android:text="@string/play_4x4_board"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/layershape"
+        android:fontFamily="casual"
+        android:onClick="five_board_computer"
+        android:text="@string/play_5x5_board"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="0"
+        android:background="@drawable/topbackground"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Play with a Friend"
+        android:paddingRight="16dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="25sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="Choose a Board to play with a friend"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium.Inverse"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+
+        android:textStyle="italic|bold" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/layershape"
+        android:fontFamily="casual"
+        android:onClick="four_board_friend"
+        android:text="@string/play_4x4_board"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/layershape"
+        android:fontFamily="casual"
+        android:onClick="five_board_friend"
+        android:text="Play 5x5 Board"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+
+
+</LinearLayout>
